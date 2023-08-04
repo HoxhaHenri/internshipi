@@ -1,0 +1,465 @@
+/* .col{
+    padding: 0;
+} */
+
+/* .container{
+    width: 1920px;
+    height: 960px;
+    margin: 0;
+    max-width: 1920px;
+} */
+
+
+#mbledhsiIktyre {
+    width: 400px;
+    height: 800px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#mbledhsiIktyre .btn {
+    width: 130px;
+    height: 40px;
+    position: relative;
+    top: 80px;
+    right: 130px;
+    border-radius: 50px;
+    background-color: #ff7f00;
+    font-weight: bold;
+}
+
+#newArrivals {
+    position: relative;
+    font-family: Segoe Script;
+    /* bottom: 280px; */
+    /* left: 210px; */
+    font-size: 30px;
+    color: #ff7f00;
+    font-weight: 600;
+    text-align: left;
+}
+
+#trendFashion2017 {
+    width: 325px;
+    height: 205px;
+    position: relative;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+    /* bottom: 150px; */
+    text-align: left;
+}
+
+#txtPoshtFashion2017 {
+    position: relative;
+    top: 40px;
+    font-size: 15px;
+    color: gray;
+    width: 330px;
+    text-align: left;
+}
+
+#backgroundi {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#divGoca {
+    position: relative;
+    width: 745px;
+    height: 960px;
+    left: 120px;
+
+}
+
+#divGoca img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: multiply;
+}
+
+swiper-slide {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+swiper-container {
+    margin: 0;
+    width: 1920px;
+    height: 960px;
+}
+
+
+
+#fStore {
+    position: relative;
+    margin: 0;
+    top: 8px;
+    font-size: 12px;
+    color: rgb(190, 187, 187);
+    font-weight: bold;
+}
+
+
+.navigation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1920px;
+}
+
+.navigation a {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.navigation a #bag {
+    position: absolute;
+}
+
+.navigation #labelTekBag {
+    position: relative;
+    top: 10px;
+    left: 1px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+    background-color: #ff7f00;
+    border-radius: 30px;
+}
+
+.navigation a #profile {
+    position: relative;
+    left: 15px;
+}
+
+#navigationLINKS {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#navigationLINKS a {
+    padding-left: 50px;
+    padding-right: 30px;
+    color: rgb(190, 187, 187);
+    font-weight: bold;
+
+}
+
+#navigationLINKS a:hover {
+    color: black;
+}
+
+
+#NewArrivals {
+    height: 1000px;
+}
+
+#tekstVertikal {
+    top: 450px;
+
+}
+
+.swiper2 {
+    width: 100%;
+}
+
+.fotoKolona1 {
+    width: 370px;
+    height: 335px;
+}
+
+.butonKolona1 {
+    left: 10px;
+    margin-bottom: 80px;
+}
+
+.card {
+    background-color: rgb(243, 241, 241);
+}
+
+.card img {
+    background-color: rgb(243, 241, 241);
+}
+
+
+
+.swiperDOTD {
+    background: transparent;
+    mix-blend-mode: multiply;
+}
+
+#fotoDOTD {
+    margin: 0;
+}
+
+#slideshowFotoDOTD {
+    mix-blend-mode: multiply;
+}
+
+
+
+.services {
+    width: 100%;
+    background-image: url("backgroundi2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    column-gap: 100px;
+
+
+}
+
+.kartatServices1 {
+    margin-top: 373px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.kartatServices1 h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.kartatServices1 p {
+    color: rgb(194, 191, 191);
+
+}
+
+.kartatServices1 button {
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: #ff7f00;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+
+.kolonaNeMes {
+    margin-top: 150px;
+}
+
+.kolonaNeMes row {
+    max-width: 100%;
+
+}
+
+.kartatServices2 {
+    background-color: transparent;
+    margin-top: 130px;
+    border-color: transparent;
+
+}
+
+.kartatServices2 h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.kartatServices2 p {
+    color: rgb(194, 191, 191);
+
+}
+
+.kartatServices2 button {
+    width: 130px;
+    height: 40px;
+    margin-top: 70px;
+    color: white;
+    background-color: #ff7f00;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.shopNavigation {
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(247, 243, 243);
+    position: relative;
+    top: 118px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shopNavigation .col {
+    margin: auto;
+    font-size: 13px;
+    color: rgb(202, 198, 198);
+}
+
+.shopNavigation a {
+    color: rgb(180, 176, 176);
+    font-weight: 700;
+}
+
+.shop {
+    width: 1000px;
+    height: 785px;
+    /* background-color: rgb(219, 213, 213); */
+    margin: auto;
+    position: relative;
+    top: 150px;
+}
+
+.shop .col {
+    width: 385px;
+    max-height: 100%;
+}
+
+.shop .row img {
+    max-width: 270px;
+    max-height: 265px;
+}
+
+.shop p {
+    font-weight: bold;
+}
+
+.shop .cmimi {
+    font-weight: 700;
+    font-size: 13px;
+    color: gray;
+    position: relative;
+    bottom: 10px;
+}
+
+.shop .card {
+    border: transparent;
+}
+
+.shop .card-body {
+    text-align: center;
+}
+
+.butoni {
+    margin-top: 200px;
+}
+
+.butoni button {
+    background-color: #ff7f00;
+    border-color: transparent;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    padding: 3px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.subscription {
+    max-width: 100%;
+    height: 200px;
+    background-color: rgb(247, 243, 243);
+}
+
+
+.subscription .subscriptionDiv {
+    margin: auto;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.subscription .subscriptionDiv p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.subscription input {
+    border-color: transparent;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 40px;
+    flex-grow:3;
+    border:none;
+}
+.subscription input:focus{
+    outline: none;
+}
+
+.subscription .subscriptionDiv button {
+    border-color: transparent;
+    background-color: #ff7f00;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:white;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+}
+
+.footer a{
+    color: black;
+    font-weight: 600;
+}
+
+.footer .kolona1{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.footer .kolona1 p{
+    margin: auto;
+}
+
+.kolona2 img{
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.kolona2 label{
+    margin-top: auto;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-weight: 600;
+    
+}
+
+.kolona2 p{
+    color: rgb(179, 175, 175);
+    font-weight: 700;
+    margin-left: 30%;
+    
+}
+@media(max-width:768px) {
+    .mySwiper {
+        width: 600px;
+    }
+}
