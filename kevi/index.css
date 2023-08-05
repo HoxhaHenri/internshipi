@@ -1,14 +1,18 @@
-/* .col{
-    padding: 0;
-} */
+.topOfPage{
+    background-image: url(backgroundi.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
-/* .container{
-    width: 1920px;
-    height: 960px;
-    margin: 0;
-    max-width: 1920px;
-} */
+.topOfPage .mySwiper{
+    background: transparent;
+    width: 100%;
+   
+}
 
+.topOfPage swiper-slide{
+    background: transparent;
+}
 
 #mbledhsiIktyre {
     width: 400px;
@@ -121,7 +125,7 @@ swiper-container {
 .navigation {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 1920px;
+    width: 100%;
 }
 
 .navigation a {
@@ -199,7 +203,10 @@ swiper-container {
     background-color: rgb(243, 241, 241);
 }
 
-
+#DealsOfDay swiper-container{
+    width: 100%;
+    height: 100%;
+}
 
 .swiperDOTD {
     background: transparent;
@@ -437,17 +444,17 @@ swiper-container {
     margin: auto;
 }
 
-.kolona2 img{
-    margin-top: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
-    
+.kolona2{
+    margin-top: 130px;
+}
+
+.kolona2 .row{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .kolona2 label{
-    margin-top: auto;
-    margin-left: 45px;
-    margin-right: 45px;
+    
     font-weight: 600;
     
 }
@@ -455,9 +462,16 @@ swiper-container {
 .kolona2 p{
     color: rgb(179, 175, 175);
     font-weight: 700;
-    margin-left: 30%;
+    /* margin-left: 30%; */
     
 }
+
+.kolona3 p{
+    margin-left: auto;
+}
+
+
+
 @media(max-width:768px) {
     .mySwiper {
         width: 600px;

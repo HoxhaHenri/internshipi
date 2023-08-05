@@ -13,11 +13,11 @@
 
 <body>
     <div class="container-fluid" style="overflow: hidden;">
-        <div class="row">
+        <div class="row topOfPage">
             <div class="col">
                 <swiper-container class="mySwiper" direction="vertical" pagination="true" pagination-clickable="true">
                     <swiper-slide style="height: 800px;">
-                        <img src="backgroundi.png" alt="" id="backgroundi">
+                        <!-- <img src="backgroundi.png" alt="" id="backgroundi"> -->
                         <div id="divGoca">
                             <img src="goca.png" alt="" id="goca">
                         </div>
@@ -32,7 +32,7 @@
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img src="backgroundi.png" alt="" id="backgroundi">
+                        <!-- <img src="backgroundi.png" alt="" id="backgroundi"> -->
                         <div id="divGoca">
                             <img src="goca.png" alt="" id="goca">
                         </div>
@@ -47,7 +47,7 @@
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img src="backgroundi.png" alt="" id="backgroundi">
+                        <!-- <img src="backgroundi.png" alt="" id="backgroundi"> -->
                         <div id="divGoca">
                             <img src="goca.png" alt="" id="goca">
                         </div>
@@ -67,18 +67,18 @@
 
 
         <div class="navigation row" style="margin-left: 10px;">
-            <div class="navigation col">
+            <div class="navigation col-1">
                 <img src="LAST40_.png" alt="">
                 <label for="" id="fStore">Fashion Store</label>
             </div>
-            <div class="navigation col">
+            <div class="navigation col-4">
                 <a href=""><img src="Composite Path.png" alt=""></a>
                 <a href=""><img src="baguVogel.png" alt="" id="bag"></a>
                 <label for="" id="labelTekBag">2</label>
                 <a href=""><img src="profile.png" alt="" id="profile"></a>
             </div>
 
-            <div class="col-8" id="navigationLINKS">
+            <div class="col" id="navigationLINKS">
                 <a href="">HOME</a>
                 <a href="">MEN FASHION</a>
                 <a href="">WOMEN FASHION</a>
@@ -272,25 +272,25 @@
             </div>
         </div>
 
-        <div class="row" id="DealsOfDay"
-            style=" max-height: 800px;  max-width: 1920px;   position: relative; right: 0;">
+        <div class="row" id="DealsOfDay" style=" max-height: 800px;  max-width: 100%;   position: relative; right: 0;">
             <div><img src="backgroundi.png" alt="" style="position: absolute; height: 100%; width: 100%;"></div>
             <div class="col">
                 <div class="row">
-                    <div class="col-6" style="margin-top: 20px;">
-                        <div class="row" id="fotoDOTD"> <img src="June - July 2017.png" alt=""
+                    <div class="col" style="margin-top: 20px;">
+                        <div class="row" id="fotoDOTD" style="max-width:100%"> <img src="June - July 2017.png" alt=""
                                 style="margin-left: 800px;"> </div>
                         <div class="row" style="height: 10px;"></div>
                         <div class="row" id="fotoDOTD"><img src="Deals of The Day_.png" alt=""
                                 style="margin-left: 580px;"></div>
                     </div>
-                    <div class="col-6" id="textDOTD" style="margin-top: 20px;"><img src="Find all branded fas.png"
-                            alt=""></div>
+                    <div class="col" id="textDOTD" style="margin-top: 20px;"><img src="Find all branded fas.png" alt="">
+                    </div>
                 </div>
                 <div class="row" style="max-height: 700px;">
                     <swiper-container class="mySwiper" navigation="true" pagination="true" keyboard="true"
-                        mousewheel="true" css-mode="true" style="max-height: 700px; width: 1920px;">
-                        <swiper-slide style=" background: transparent; max-height:700px;">
+                        mousewheel="true" css-mode="true" style="max-height: 700px; max-width: 100%;">
+                        <swiper-slide style="background: transparent; max-height: 700px; width: 100%;" role="group"
+                            aria-label="1 / 4" class="swiper-slide-active">
                             <div class="card mb-3" style="max-width: 390px; max-height: 460px; bottom: 200px;">
                                 <img src="bag.png" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -303,9 +303,12 @@
                                 </div>
                             </div>
                         </swiper-slide>
-                        <swiper-slide style=" background: transparent;"></swiper-slide>
-                        <swiper-slide style=" background: transparent;"></swiper-slide>
-                        <swiper-slide style=" background: transparent;"></swiper-slide>
+                        <swiper-slide style="background: transparent; width: 100%;" role="group" aria-label="2 / 4"
+                            class="swiper-slide-next"></swiper-slide>
+                        <swiper-slide style="background: transparent; width: 100%;" role="group"
+                            aria-label="3 / 4"></swiper-slide>
+                        <swiper-slide style="background: transparent; width: 100%;" role="group"
+                            aria-label="4 / 4"></swiper-slide>
                     </swiper-container>
                 </div>
             </div>
@@ -458,17 +461,17 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="row subscription">
-            
+
             <div class="subscriptionDiv">
-                <p >SUBSCRIBE NEWSLETTER</p>
+                <p>SUBSCRIBE NEWSLETTER</p>
                 <input type="text" name="" id="" placeholder="youremail@gmail.com">
                 <button>SUBSCRIBE</button>
             </div>
 
         </div>
-        
+
         <div class="row footer">
             <div class="col kolona1">
                 <a href="">TERMS & CONDITIONS</a>
@@ -476,11 +479,22 @@
                 <a href="">MAP</a>
             </div>
             <div class="col kolona2">
-                <label>&#169 2016 Last40.Online Store.All Rights Reserved</label>
-                <img src="LAST40_.png" alt="">
-                <p>Fashion Store</p>
+                <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-center" style="margin-bottom: 0px;">
+                        <label>&#169 2016 Last40.Online Store.All Rights Reserved</label>
+                    </div>
+                    <div class="d-flex justify-content-center" >
+                        <img src="LAST40_.png" alt=""></div>
+                    <div class="d-flex justify-content-center ">
+                        <p>Fashion Store</p>
+                    </div>
+                  </div>
             </div>
-            <div class="col kolona3"></div>
+            <div class="col kolona3">
+                <div>
+                    <p>wasap nigga</p>
+                </div>
+            </div>
         </div>
 
         <div class="row">
