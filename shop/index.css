@@ -1,10 +1,178 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.navbar{
-    width: 80%;
+.container {
     max-width: 80%;
-    margin: 0;
+}
+
+.navbar {
+    position: relative;
+    left: auto;
+    right: auto;
+    background-color: rgb(248, 246, 246);
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navigationContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a {
+    color: rgb(180, 180, 180);
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.poshtNavigationit {
+    height: 300px;
+    background-color: rgb(248, 246, 246);
+    width: 77.5%;
+    margin: auto;
+}
+
+.priceRanges {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    background-color: rgb(248, 246, 246);
+    width: 77.5%;
+}
+
+.Menu {
+    margin-top: calc(5vw + 10px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    background-color: rgb(248, 246, 246);
+    width: 77.5%;
+}
+
+.Menu a {
+    color: rgb(180, 180, 180);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.produktet {
+    background-color: rgb(248, 246, 246);
+    width: 77.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.produktet .rreshti {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.produktet .card {
+    background-color: rgb(248, 246, 246);
+}
+
+.subscription {
+    background-color: rgb(248, 246, 246);
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.subscription .subscriptionDiv {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.subscription .subscriptionDiv p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subscription input {
+    border-color: transparent;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 40px;
+    flex-grow: 3;
+    border: none;
+}
+
+.subscription input:focus {
+    outline: none;
+}
+
+.subscription .subscriptionDiv button {
+    border-color: transparent;
+    background-color: #ff7f00;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(248, 246, 246);
+    width: 77.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.footer a{
+    color: black;
+    font-weight: 600;
+}
+
+.footer .kolona1{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.footer .kolona1 p{
+    margin: auto;
+}
+
+.kolona2{
+    margin-top: 130px;
+}
+
+.kolona2 .row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kolona2 label{
+    
+    font-weight: 600;
+    
+}
+
+.kolona2 p{
+    color: rgb(179, 175, 175);
+    font-weight: 700;
+    /* margin-left: 30%; */
+    
+}
+
+.kolona3 p{
+    margin-left: auto;
 }
