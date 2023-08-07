@@ -1,14 +1,10 @@
-.container{
-    max-width: 100%;
-    margin: 0;
-}
+
 
 .navbar {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(248, 246, 246);
-    max-width: 77.5%;
+    background-color: white;
 }
 
 .navbar-nav {
@@ -34,7 +30,7 @@
     background-color: rgb(248, 246, 246);
     width: 100%;;
     margin: auto;
-    padding-left: 12%;
+    /* padding-left: 12%; */
     
 }
 
@@ -45,7 +41,7 @@
 }
 
 .billing{
-    width: 77.5%;
+    /* width: 77.5%; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -88,7 +84,7 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-left: 20px;
-    width: 500px;
+    /* width: 500px; */
     height: 40px;
     flex-grow: 3;
     border: none;
@@ -108,7 +104,7 @@
 
 .footer{
     background-color: rgb(248, 246, 246);
-    width: 77.5%;
+    /* width: 77.5%; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
